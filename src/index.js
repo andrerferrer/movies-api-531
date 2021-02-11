@@ -49,7 +49,7 @@
 
 
 const getApi = (movieQuery) => {
-  const url = `http://www.omdbapi.com/?s=${movieQuery}&apikey=adf1f2d7`
+  const url = `http://www.omdbapi.com/?s=${movieQuery}&apikey=adeb456d`
 
   fetch(url)
     .then(response => response.json())
@@ -96,4 +96,3 @@ form.addEventListener('submit', (event) => {
   // getApi with the movie name and update the list
   getApi(movieQuery);
 });
-
