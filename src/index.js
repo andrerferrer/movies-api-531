@@ -65,7 +65,7 @@ const getApi = (movieQuery) => {
     
         // create an HTML element
         const htmlElement = `
-          <li>
+          <li class="list-inline-item">
             <p>${title} - ${year}</p>
             <img src="${posterUrl}" alt="">
           </li>      
